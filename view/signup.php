@@ -12,8 +12,8 @@
 
     <div id="container-sign">
         <div id="square-signup">
-            <h1 class="title-signin">Sign up</h1>
-            <form class="mt-5">
+            <h1 class="title-signin mt-4">Sign up</h1>
+            <form class="mt-5 mb-4">
                 <div class="row mb-4">
                     <div class="col">
                         <input type="text" class="form-control" placeholder="First name">
@@ -42,7 +42,7 @@
                     <input type="checkbox" class="custom-control-input" id="customSwitch2">
                     <label class="custom-control-label" for="customSwitch2">Subscribe to the BetaWeb Newsletter</label>
                 </div>
-                <button type="submit" class="btn btn-primary btn-signin">Sign in</button>
+                <button type="submit" class="btn btn-primary btn-signin mt-4">Sign in</button>
             </form>
         </div>
     </div>

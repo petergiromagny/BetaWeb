@@ -178,13 +178,11 @@ form{
 .title-signin{
     text-align: center;
     color: #ffffff;
-    margin: 15px auto;
 }
 
 .btn-signin{
     background-color: #2603A5 !important;
     border-color: #2603A5 !important;
-    margin: 20px auto;
 }
 
 .custom-control-input:checked~.custom-control-label::before {
@@ -200,14 +198,34 @@ form{
 
 #square-signin{
     width: 500px;
-    height: 400px;
+    height: auto;
     background: #F29F05;
 }
 
 #square-signup{
     width: 650px;
-    height: 500px;
+    height: auto;
     background: #F29F05;
+}
+
+.contact-left{
+    width: 350px !important;
+    height: 490px;
+    background-color: #F29F05;
+}
+
+.link-contact{
+    color: #eeeeee;
+}
+
+.link-contact:hover{
+    text-decoration: none;
+    color: #2603A5;
+    font-weight: 500;
+}
+
+.contact-right{
+
 }
 
 /****************** FOOTER ******************/
