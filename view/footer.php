@@ -17,8 +17,8 @@
         </div>
         <div class="col-md footer-items right-footer">
             <h3>CONTACT US</h3>
-            <div class="contact"><i class="far fa-envelope"></i><p><a href="mailto:peter.giromagny@me.com" class="link-footer">peter.giromagny@me.com</a></p></div>
-            <div class="contact"><i class="fas fa-phone"></i><p><a href="tel:+33682056052" class="link-footer">06.82.05.60.52</a></p></div>
+            <div class="contact-info"><i class="far fa-envelope"></i><p><a href="mailto:peter.giromagny@me.com" class="link-footer">peter.giromagny@me.com</a></p></div>
+            <div class="contact-info"><i class="fas fa-phone"></i><p><a href="tel:+33682056052" class="link-footer">06.82.05.60.52</a></p></div>
         </div>
     </div>
     <div id="entertainement">

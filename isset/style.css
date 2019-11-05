@@ -208,7 +208,6 @@ form{
 }
 
 .contact-left{
-    width: 350px !important;
     height: 490px;
     background-color: #F29F05;
 }
@@ -221,6 +220,10 @@ form{
     text-decoration: none;
     color: #2603A5;
     font-weight: 500;
+}
+
+.contact{
+    display: flex;
 }
 
 .map {
@@ -243,18 +246,18 @@ footer{
     text-align: center;
 }
 
-.contact{
+.contact-info{
     display: flex;
     max-width: 230px;
     margin: 10px auto;
     text-align: left;
 }
 
-.contact i{
+.contact-info i{
     margin: auto 10px;
 }
 
-.contact p{
+.contact-info p{
     margin-bottom: 0;
 }
 
@@ -297,7 +300,7 @@ footer{
     }
 
     .map{
-        width: 893px;
+        width: 100%;
     }
 
     footer{
