@@ -30,6 +30,11 @@
             </form>
         </div>
     </div>
+    <div id="container-cat">
+        <p>Prénom : <?php echo "donnée"?></p>
+        <p>Nom : <?php echo "donnée"?></p>
+        <p>Mail : <?php echo "donnée"?></p>
+    </div>
 
 
 </div>

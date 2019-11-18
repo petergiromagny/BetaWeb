@@ -4,23 +4,11 @@
 class DAO
 {
 
-    public function __construct(){
+    function getConnexion(){
+        $userDatabase = "root";
+        $mdpDatabase = "";
 
-        $dsn = 'mysql:dbname=testdb;host=localhost';
-        $user = 'dbuser';
-        $password = 'dbpass';
-
-        try {
-            $dbh = new PDO($dsn, $user, $password);
-        } catch (PDOException $e) {
-            echo 'Connexion échouée : ' . $e->getMessage();
-        }
+        $dsn = new PDO('mysql:host=localhost;dbname=betaweb', $userDatabase, $mdpDatabase);
     }
 
-
-
 }
-
-
-
-?>

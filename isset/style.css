@@ -12,7 +12,7 @@ body, html{
 }
 
 #main-container{
-    position: relative;
+
     min-height: 100%;
     background: #200F8C;
 }
