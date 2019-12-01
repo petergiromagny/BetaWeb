@@ -21,7 +21,7 @@
             </a>
         </div>
         <div class="categories-block">
-            <a href="#">
+            <a href="">
                 <img src="../isset/img/banner2.png" class="cat-banner" alt="pants">
                 <div class="middle">
                     <div class="cat-name">Pants</div>
@@ -49,5 +49,6 @@
     <?php include 'footer.php'?>
 
 </div>
+<script src="../isset/animation.js"></script>
 </body>
 </html>
